@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs (PyCharm)
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Local uploaded PDFs
+data/raw/*
+
+# Processed documents
+data/processed/*
+
+# Keep the folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
